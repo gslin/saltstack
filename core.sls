@@ -1,5 +1,6 @@
 #
 include:
+  - editor
   - shell
   - ufw
   - unbound
