@@ -1,0 +1,3 @@
+#
+all:
+	salt \* state.highstate
