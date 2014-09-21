@@ -1,4 +1,7 @@
 #
+include:
+  - shell
+
 mtr-tiny:
   pkg:
     - installed
@@ -39,7 +42,3 @@ unbound-resolv.conf:
         nameserver 127.0.0.1
     - require:
       - pkg: unbound
-
-zsh:
-  pkg:
-    - installed
