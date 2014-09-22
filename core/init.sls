@@ -1,9 +1,9 @@
 #
 include:
+  - core/ufw
+  - core/unbound
   - editor
   - shell
-  - ufw
-  - unbound
 
 mtr-tiny:
   pkg:
