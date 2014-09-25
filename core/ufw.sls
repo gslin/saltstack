@@ -1,7 +1,7 @@
 #
 ufw:
   pkg:
-    - installed
+    - latest
 
 ufw-default-deny:
   cmd.run:

@@ -1,4 +1,4 @@
 #
 vim-nox:
   pkg:
-    - installed
+    - latest

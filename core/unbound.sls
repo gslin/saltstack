@@ -1,7 +1,7 @@
 #
 unbound:
   pkg:
-    - installed
+    - latest
 
 unbound-resolv.conf:
   file.managed:

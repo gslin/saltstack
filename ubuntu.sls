@@ -1,8 +1,8 @@
 #
 python-software-properties:
   pkg:
-    - installed
+    - latest
 
 software-properties-common:
   pkg:
-    - installed
+    - latest
