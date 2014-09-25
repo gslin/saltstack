@@ -1,4 +1,4 @@
 #
 zsh:
   pkg:
-    - installed
+    - latest
