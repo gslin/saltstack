@@ -21,3 +21,10 @@ smokeping-Targets:
     - source: salt://smokeping/Targets
     - require:
       - pkg: smokeping
+
+smokeping-restart:
+  cmd.run:
+    - name: service smokeping restart
+    - watch:
+      - file: smokeping-General
+      - file: smokeping-Targets
