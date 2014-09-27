@@ -7,7 +7,7 @@ smokeping-General:
     - name: /etc/smokeping/config.d/General
     - user: root
     - group: root
-    - mode: 755
+    - mode: 644
     - template: jinja
     - source: salt://smokeping/General
     - require:
@@ -18,7 +18,7 @@ smokeping-Targets:
     - name: /etc/smokeping/config.d/Targets
     - user: root
     - group: root
-    - mode: 755
+    - mode: 644
     - source: salt://smokeping/Targets
     - require:
       - pkg: smokeping
