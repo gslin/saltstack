@@ -1,0 +1,51 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of xxx Company. \
+         Here you will learn all about the latency of our network.
+
++ Self
+menu = Self
+title = Self
+
+++ Self_127_0_0_1
+host = 127.0.0.1
+menu = 127_0_0_1
+title = 127.0.0.1
+
++ CDN
+menu = CDN
+title = CDN
+
+++ CDN_a1_panthercdn_com
+host = a1.panthercdn.com
+menu = a1.panthercdn.com (CDNetworks, CDNetworks)
+title = a1.panthercdn.com
+
+++ CDN_a2_panthercdn_com
+host = a2.panthercdn.com
+menu = a2.panthercdn.com (CDNetworks, CDNetworks)
+title = a2.panthercdn.com
+
+++ CDN_g1_panthercdn_com
+host = g1.panthercdn.com
+menu = g1.panthercdn.com (CDNetworks, CDNetworks)
+title = g1.panthercdn.com
+
+++ CDN_g2_panthercdn_com
+host = g2.panthercdn.com
+menu = g2.panthercdn.com (CDNetworks, CDNetworks)
+title = g2.panthercdn.com
+
+++ CDN_n1_panthercdn_com
+host = n1.panthercdn.com
+menu = n1.panthercdn.com (CDNetworks, CDNetworks)
+title = n1.panthercdn.com
+
+++ CDN_n2_panthercdn_com
+host = n2.panthercdn.com
+menu = n2.panthercdn.com (CDNetworks, CDNetworks)
+title = n2.panthercdn.com

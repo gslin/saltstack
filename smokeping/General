@@ -1,0 +1,9 @@
+*** General ***
+
+owner    = Gea-Suan Lin
+contact  = gslin@gslin.org
+mailhost = localhost
+cgiurl   = /smokeping.cgi
+syslogfacility = local0
+
+@include /etc/smokeping/config.d/pathnames
