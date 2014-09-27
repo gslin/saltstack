@@ -1,6 +1,6 @@
 smokeping:
   pkg:
-    - installed
+    - latest
 
 smokeping-General:
   file.managed:
