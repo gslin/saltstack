@@ -25,11 +25,6 @@ host = a1.panthercdn.com
 menu = a1.panthercdn.com (CDNetworks, CDNetworks)
 title = a1.panthercdn.com
 
-++ CDN_a2_panthercdn_com
-host = a2.panthercdn.com
-menu = a2.panthercdn.com (CDNetworks, CDNetworks)
-title = a2.panthercdn.com
-
 ++ CDN_g1_panthercdn_com
 host = g1.panthercdn.com
 menu = g1.panthercdn.com (CDNetworks, CDNetworks)
