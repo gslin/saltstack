@@ -8,6 +8,7 @@ smokeping-General:
     - user: root
     - group: root
     - mode: 755
+    - template: jinja
     - source: salt://smokeping/General
     - require:
       - pkg: smokeping
