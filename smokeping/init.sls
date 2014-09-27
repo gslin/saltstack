@@ -26,6 +26,6 @@ smokeping-Targets:
 smokeping-restart:
   cmd.run:
     - name: service smokeping restart
-    - watch:
+    - onchanges:
       - file: smokeping-General
       - file: smokeping-Targets
