@@ -1,0 +1,3 @@
+smokeping:
+  pkg:
+    - installed
