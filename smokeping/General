@@ -3,7 +3,7 @@
 owner    = Gea-Suan Lin
 contact  = gslin@gslin.org
 mailhost = localhost
-cgiurl   = http://{{ grains['fqdn'] }}/smokeping.cgi
+cgiurl   = http://{{ grains['fqdn'] }}/cgi-bin/smokeping.cgi
 syslogfacility = local0
 
 @include /etc/smokeping/config.d/pathnames
